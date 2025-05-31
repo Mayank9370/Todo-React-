@@ -1,0 +1,43 @@
+/* AddTodo.css */
+
+/* Centering container */
+.add-todo-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* Input and button container */
+.add-todo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.add-todo-container input {
+  padding: 10px;
+  font-size: 16px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-todo-container input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.add-todo-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-todo-container button:hover {
+  background-color: #0056b3;
+}
